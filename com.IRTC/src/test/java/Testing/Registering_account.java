@@ -29,7 +29,7 @@ public class Registering_account {
 				driver.manage().window().maximize();
 				driver.get("https://www.irctc.co.in/nget/train-search");
 				System.out.println(driver.getTitle());
-				
+				driver.close();
 			}
 			
 			@Test
